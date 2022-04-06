@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 
 const Item = ({item, state}) => {
     const [context, setContext] = useContext(CheckedContext)
-    let checked = context.find(itm => itm.id === item.id)
+    let checked = !!context.find(itm => itm.id === item.id)
 
     const handleChange = () => {
         checked = !checked
