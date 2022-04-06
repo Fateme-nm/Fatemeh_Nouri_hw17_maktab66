@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.allitems, .selecteditems {
+  padding: 1rem;
+  width: 15rem;
+  height: 22rem;
+  text-align: center;
+  overflow: hidden;
+}
+
+.allitems h3, .selecteditems h3 {
+  margin-bottom: 1rem;
+}
+
+.allitems {
+  background-color: rgb(197, 223, 245);
+}
+
+.selecteditems {
+  background-color: rgb(232, 156, 169);
+}
+
+.items-ul {
+  list-style: none;
+  text-align: center;
+}
